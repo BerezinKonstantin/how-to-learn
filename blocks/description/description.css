@@ -1,0 +1,6 @@
+.description {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+.resources__link {
+  display: flex;
+  justify-content: center;
+}
+/*поведение ссылок при наведении*/
+.resources__link:hover {
+  opacity: 0.6;
+  transition: linear 0.4s;
+}
