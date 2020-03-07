@@ -1,0 +1,11 @@
+@keyframes rotation_for_triangle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotation_place_kaufman {
+  animation: rotation_for_triangle 20s linear infinite;
+}

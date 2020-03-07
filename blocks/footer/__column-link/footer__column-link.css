@@ -1,0 +1,11 @@
+.footer__column-link {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+/*поведение ссылок при наведении*/
+.footer__column-link:hover {
+  opacity: 0.6;
+  transition: linear 0.4s;
+}

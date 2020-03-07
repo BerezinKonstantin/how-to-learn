@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -13,7 +13,7 @@
         <img
           class="logo logo_place_header"
           alt="Яндекс Практикум"
-          src="blocks/logo/logo.svg"
+          src="images/logo/_place/logo_place_header.svg"
         />
         <h1 class="header__title">
           Научиться учиться
@@ -26,9 +26,9 @@
         <img
           class="header__main-illustration"
           alt="Опять двойка"
-          src="blocks/header/two_again.png"
+          src="images/header/__main-illustration/header__main-illustration.png"
         />
-        <div class="header__square-pic rotation"></div>
+        <div class="header__square-pic rotation_place_header"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -68,7 +68,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="blocks/cards/__image/attention.png"
+                src="images/cards/__image/attention.png"
                 alt="В руках книга 101 эссе, которые изменят ваше мышление"
               />
               <h3 class="cards__title">Два вида внимания</h3>
@@ -80,7 +80,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="blocks/cards/__image/recall.png"
+                src="images/cards/__image/recall.png"
                 alt="Античная статуя с задумчивым видом"
               />
               <h3 class="cards__title">Recall</h3>
@@ -92,7 +92,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="blocks/cards/__image/interliving.png"
+                src="images/cards/__image/interliving.png"
                 alt="Холл помещения с высокими сводами"
               />
               <h3 class="cards__title">Интерливинг</h3>
@@ -104,7 +104,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="blocks/cards/__image/question.png"
+                src="images/cards/__image/question.png"
                 alt="Один человек в большом пустом зале"
               />
               <h3 class="cards__title">Вопросы</h3>
@@ -116,7 +116,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="blocks/cards/__image/competence.png"
+                src="images/cards/__image/competence.png"
                 alt="Стопка книг на ладони"
               />
               <h3 class="cards__title">Иллюзия компетентности</h3>
@@ -127,7 +127,6 @@
             </div>
           </div>
         </section>
-
         <section class="video">
           <h2 class="section-title">
             Видео на TED
@@ -156,7 +155,6 @@
             ></iframe>
           </div>
         </section>
-
         <section class="oakley">
           <div class="two-columns two-columns_place_oakley">
             <h2 class="two-columns__brief">
@@ -176,8 +174,6 @@
             </div>
           </div>
         </section>
-
-        <!--Секция - Фейнман-->
         <section class="feinman">
           <h2 class="feinman__title">
             Метод Фейнмана
@@ -190,11 +186,10 @@
           </a>
           <img
             class="feinman__pic"
-            src="images/feinman.png"
+            src="images/feinman/__pic/feinman__pic.png"
             alt="Ричард Фейнман"
           />
         </section>
-
         <section class="digits">
           <h2 class="section-title">
             Цифры и факты
@@ -286,7 +281,6 @@
             </div>
           </div>
         </section>
-
         <section class="khan">
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
@@ -303,15 +297,18 @@
             <div class="khan__book-container">
               <img
                 class="khan__book-pic"
-                src="blocks/khan/__book-pic/book.jpg"
+                src="images/khan/__book-pic/khan__book-pic.jpg"
                 alt="Обложка книги Салмана Хана Весь мир - школа"
               />
-              <a class="khan__buy-link" href="https://www.ozon.ru/context/detail/id/31700837/"
-              target="_blank">Купить книгу&rarr;</a>
+              <a
+                class="khan__buy-link"
+                href="https://www.ozon.ru/context/detail/id/31700837/"
+                target="_blank"
+                >Купить книгу&rarr;</a
+              >
             </div>
           </div>
         </section>
-        <!--Секция - Кауфман-->
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
@@ -412,9 +409,8 @@
               </p>
             </div>
           </div>
-          <div class="kaufman__triangle rotation"></div>
+          <div class="kaufman__triangle rotation_place_kaufman"></div>
         </section>
-
         <section class="resources">
           <h2 class="section-title">
             Полезные ресурсы
@@ -429,13 +425,13 @@
               target="_blank"
               ><img
                 class="resources__logo"
-                src="blocks/resources/__logo/arzamas.svg"
+                src="images/resources/__logo/arzamas.svg"
                 alt="Логотип Арзамас"
             /></a>
             <a class="resources__link" href="https://nplus1.ru/" target="_blank"
               ><img
                 class="resources__logo"
-                src="blocks/resources/__logo/n1.svg"
+                src="images/resources/__logo/n1.svg"
                 alt="Логотип Н+1"
             /></a>
             <a
@@ -444,7 +440,7 @@
               target="_blank"
               ><img
                 class="resources__logo"
-                src="blocks/resources/__logo/strelka.svg"
+                src="images/resources/__logo/strelka.svg"
                 alt="Логотип Стрелки"
             /></a>
             <a
@@ -454,21 +450,20 @@
             >
               <img
                 class="resources__logo"
-                src="blocks/resources/__logo/polka.svg"
+                src="images/resources/__logo/polka.svg"
                 alt="Логотип Полки"
               />
             </a>
           </nav>
         </section>
       </main>
-      <!--Подвал Сайта-->
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <img
               class="logo logo_place_footer"
               alt="Яндекс Практикум"
-              src="blocks/logo/logo_white.svg"
+              src="images/logo/_place/logo_place_footer.svg"
             />
             <p class="footer__author">
               &copy; 2020. Константин Березин
@@ -504,11 +499,12 @@
               <li>
                 <a
                   class="footer__column-link"
-                  href="https://www.facebook.com/yandex.praktikum/" target="_blank"
+                  href="https://www.facebook.com/yandex.praktikum/"
+                  target="_blank"
                 >
                   <img
                     class="footer__social-icon"
-                    src="images/facebook_white.svg"
+                    src="images/footer/__social-icon/facebook_white.svg"
                     alt="Фейсбук"
                   />
                   Facebook
@@ -517,11 +513,12 @@
               <li>
                 <a
                   class="footer__column-link"
-                  href="https://vk.com/yandex.praktikum" target="_blank"
+                  href="https://vk.com/yandex.praktikum"
+                  target="_blank"
                 >
                   <img
                     class="footer__social-icon"
-                    src="images/vk_white.svg"
+                    src="images/footer/__social-icon/vk_white.svg"
                     alt="Вконтакте"
                   />
                   Вконтакте
@@ -530,11 +527,12 @@
               <li>
                 <a
                   class="footer__column-link"
-                  href="https://www.instagram.com/yndx.praktikum/" target="_blank"
+                  href="https://www.instagram.com/yndx.praktikum/"
+                  target="_blank"
                 >
                   <img
                     class="footer__social-icon"
-                    src="images/instagram_white.svg"
+                    src="images/footer/__social-icon/instagram_white.svg"
                     alt="Инстаграм"
                   />
                   Instagram
