@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
@@ -28,11 +27,11 @@
           alt="Опять двойка"
           src="images/header/__main-illustration/header__main-illustration.png"
         />
-        <div class="header__square-pic rotation_place_header"></div>
+        <div class="header__square-pic rotation rotation_place_header"></div>
       </header>
       <main class="content">
         <section class="description">
-          <div class="two-columns two-columns_place_description">
+          <div class="two-columns">
             <h2 class="two-columns__brief">
               Главные проблемы в обучении
             </h2>
@@ -137,18 +136,12 @@
           <div class="video__iframes">
             <iframe
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              width="515"
-              height="316"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
               class="video__iframe"
             ></iframe>
             <iframe
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              width="515"
-              height="316"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
               class="video__iframe"
@@ -156,7 +149,7 @@
           </div>
         </section>
         <section class="oakley">
-          <div class="two-columns two-columns_place_oakley">
+          <div class="two-columns">
             <h2 class="two-columns__brief">
               История Барбары Оакли.
             </h2>
@@ -409,7 +402,7 @@
               </p>
             </div>
           </div>
-          <div class="kaufman__triangle rotation_place_kaufman"></div>
+          <div class="kaufman__triangle rotation rotation_place_kaufman"></div>
         </section>
         <section class="resources">
           <h2 class="section-title">
@@ -418,43 +411,54 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <nav class="resources__logo_zone">
-            <a
-              class="resources__link"
-              href="https://arzamas.academy/"
-              target="_blank"
-              ><img
-                class="resources__logo"
-                src="images/resources/__logo/arzamas.svg"
-                alt="Логотип Арзамас"
-            /></a>
-            <a class="resources__link" href="https://nplus1.ru/" target="_blank"
-              ><img
-                class="resources__logo"
-                src="images/resources/__logo/n1.svg"
-                alt="Логотип Н+1"
-            /></a>
-            <a
-              class="resources__link"
-              href="https://strelka.com/"
-              target="_blank"
-              ><img
-                class="resources__logo"
-                src="images/resources/__logo/strelka.svg"
-                alt="Логотип Стрелки"
-            /></a>
-            <a
-              class="resources__link"
-              href="https://polka.academy/"
-              target="_blank"
-            >
-              <img
-                class="resources__logo"
-                src="images/resources/__logo/polka.svg"
-                alt="Логотип Полки"
-              />
-            </a>
-          </nav>
+          <ul class="resources__logo-zone">
+            <li>
+              <a
+                class="resources__link"
+                href="https://arzamas.academy/"
+                target="_blank"
+                ><img
+                  class="resources__logo"
+                  src="images/resources/__logo/arzamas.svg"
+                  alt="Логотип Арзамас"
+              /></a>
+            </li>
+            <li>
+              <a
+                class="resources__link"
+                href="https://nplus1.ru/"
+                target="_blank"
+                ><img
+                  class="resources__logo"
+                  src="images/resources/__logo/n1.svg"
+                  alt="Логотип Н+1"
+              /></a>
+            </li>
+            <li>
+              <a
+                class="resources__link"
+                href="https://strelka.com/"
+                target="_blank"
+                ><img
+                  class="resources__logo"
+                  src="images/resources/__logo/strelka.svg"
+                  alt="Логотип Стрелки"
+              /></a>
+            </li>
+            <li>
+              <a
+                class="resources__link"
+                href="https://polka.academy/"
+                target="_blank"
+              >
+                <img
+                  class="resources__logo"
+                  src="images/resources/__logo/polka.svg"
+                  alt="Логотип Полки"
+                />
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
