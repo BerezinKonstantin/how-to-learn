@@ -17,3 +17,4 @@
 
 Код проекта и файловая система оформлены в соответствии с методологией **БЭМ** по **Nested**-схеме
 
+**[GitHub Pages](https://berezinkonstantin.github.io/how-to-learn/)**
